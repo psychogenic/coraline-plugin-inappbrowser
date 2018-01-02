@@ -80,6 +80,7 @@ set(CPACK_PACKAGE_VENDOR "psychogenic.com")
 
 
 add_subdirectory(inappbrowser)
+add_subdirectory(shared)
 
 
 # Add the build directory to PKG_CONFIG_PATH

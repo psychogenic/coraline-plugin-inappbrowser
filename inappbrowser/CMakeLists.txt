@@ -35,4 +35,4 @@ set(coraline-plugin-inappbrowser_LIBS ${GTK_LDFLAGS} ${WEBKITGTK_LDFLAGS} ${GLIB
 add_library(coraline-plugin-inappbrowser SHARED ${coraline-plugin-inappbrowser_SRCS})
 target_link_libraries(coraline-plugin-inappbrowser ${coraline-plugin-inappbrowser_LIBS})
 
-install(TARGETS coraline-plugin-inappbrowser LIBRARY DESTINATION ${CORALINE_PREFIX}/share/coraline/plugins)
+install(TARGETS coraline-plugin-inappbrowser LIBRARY DESTINATION ${CMAKE_INSTALL_PREFIX}/share/coraline/plugins)
